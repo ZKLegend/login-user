@@ -1,0 +1,86 @@
+.pricolor{
+  background-color: #8DD3BB;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #8DD3BB;
+  border-color: #8DD3BB;
+}
+
+.Loginframe {
+  padding: 104px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+
+  width: 512px;
+  height: 593px;
+  left: 104px;
+  top: 204px;
+  
+}
+
+.login-title {
+  width: 123px;
+  height: 51px;
+
+  /* TradeGothic/Bold/40px */
+
+  font-family: "TradeGothic LT Extended";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  /* identical to box height */
+
+  color: #000000;
+  margin-top: 20%;
+  
+}
+
+
+
+.login-register {
+  margin: 2rem 1rem 0 1rem;
+  font-size: 1rem;
+}
+.login-register-link {
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  color: rgb(105, 105, 105);
+  font-weight: 700;
+}
+.login-register-link:hover {
+  
+  color: #8DD3BB;
+  
+}
+
+.login-form {
+  max-width: 500px;
+  width: 500px;
+  
+  
+}
+.login-form-forgot {
+  float: right;
+  color: rgb(105, 105, 105);
+}
+.login-form-forgot:hover {
+  float: right;
+  color: #8DD3BB;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}
+
