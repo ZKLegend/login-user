@@ -1,0 +1,26 @@
+.forgotpass {
+  display: flex;
+  gap: 104px;
+}
+
+.forgotpass-form {
+  text-align: left;
+}
+
+.forgotpass-image {
+  margin-left: auto;
+}
+
+.forgotpass-button {
+  width: 100%;
+  height: 48px;
+  background-color: #8dd3bb;
+}
+
+.forgotpass-paragraph {
+  margin-bottom: 48px;
+}
+
+.forgotpass-title {
+  margin: 16px 0;
+}

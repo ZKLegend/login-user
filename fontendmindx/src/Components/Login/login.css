@@ -1,13 +1,12 @@
-.pricolor{
-  background-color: #8DD3BB;
+.pricolor {
+  background-color: #8dd3bb;
 }
 .ant-checkbox-checked .ant-checkbox-inner {
-  background-color: #8DD3BB;
-  border-color: #8DD3BB;
+  background-color: #8dd3bb;
+  border-color: #8dd3bb;
 }
 
 .Loginframe {
-  padding: 104px;
   display: flex;
   justify-content: flex-start;
   text-align: left;
@@ -16,14 +15,11 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
-  gap: 48px;
 
   width: 512px;
   height: 593px;
   left: 104px;
   top: 204px;
-  
 }
 
 .login-title {
@@ -32,19 +28,8 @@
 
   /* TradeGothic/Bold/40px */
 
-  font-family: "TradeGothic LT Extended";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 51px;
-  /* identical to box height */
-
-  color: #000000;
   margin-top: 20%;
-  
 }
-
-
 
 .login-register {
   margin: 2rem 1rem 0 1rem;
@@ -58,16 +43,12 @@
   font-weight: 700;
 }
 .login-register-link:hover {
-  
-  color: #8DD3BB;
-  
+  color: #8dd3bb;
 }
 
 .login-form {
   max-width: 500px;
   width: 500px;
-  
-  
 }
 .login-form-forgot {
   float: right;
@@ -75,12 +56,18 @@
 }
 .login-form-forgot:hover {
   float: right;
-  color: #8DD3BB;
+  color: #8dd3bb;
 }
 .ant-col-rtl .login-form-forgot {
   float: left;
 }
 .login-form-button {
   width: 100%;
+  height: 48px;
+  background-color: #8dd3bb;
 }
 
+.sign-up-navigate {
+  margin-top: 16px;
+  text-align: center;
+}

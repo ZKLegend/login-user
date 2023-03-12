@@ -1,0 +1,50 @@
+/* Register Font Family */
+@font-face {
+  font-family: "MontserratBold";
+  src: local("MontserratBold"),
+    url("./fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratMedium";
+  src: local("MontserratMedium"),
+    url("./fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratRegular";
+  src: local("MontserratRegular"),
+    url("./fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: local("MontserratSemiBold"),
+    url("./fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TradeGothicRegular";
+  src: local("TradeGothicRegular")
+    url("./fonts/Trade-Gothic/Trade-Gothic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TradeGothicBold";
+  src: local("TradeGothichBold"),
+    url("./fonts/Trade-Gothic/Trade-Gothic-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TradeGothicLTExtended";
+  src: local("TradeGothicLTExtended"),
+    url("./fonts/Trade-Gothic/Trade-Gothic-LT-Std-Extended.otf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "TradeGothicLTExtendedBold";
+  src: local("TradeGothicLTExtendedBold"),
+    url("./fonts/Trade-Gothic/Trade-Gothic-LT-Std-Bold-Extended.otf")
+      format("truetype");
+}

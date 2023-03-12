@@ -17,7 +17,6 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = (e) => {
-    
     const newUser = {
       username: username,
       password: password,
@@ -28,10 +27,8 @@ const Login = () => {
     <div className="Loginframe">
       <Row gutter={48}>
         <Col span={12}>
-          
-          
           <CustomLogo />
-          <h3 className="login-title">Login</h3>
+          <h3 className="trade-gothic-lt-extended-bold-40px">Login</h3>
           <Form
             name="normal_login"
             className="login-form"
@@ -45,6 +42,7 @@ const Login = () => {
               ]}
             >
               <Input
+                size="large"
                 prefix={<UserOutlined className="site-form-item-icon" />}
                 placeholder="Username"
                 onChange={(e) => setUsername(e.target.value)}
@@ -57,6 +55,7 @@ const Login = () => {
               ]}
             >
               <Input
+                size="large"
                 prefix={<LockOutlined className="site-form-item-icon" />}
                 type="password"
                 placeholder="Password"
@@ -69,23 +68,24 @@ const Login = () => {
               </Form.Item>
 
               <Link className="login-form-forgot" to="/forgotpass">
-              Forgot password
+                Forgot password
               </Link>
-              
             </Form.Item>
 
             <Form.Item>
               <Button
                 type="primary"
                 htmlType="submit"
-                className="login-form-button"
+                className="login-form-button "
               >
                 Log in
-              </Button>
-              Or{" "}
-              <Link className="login-register-link" to="/register">
-                Register one for free
-              </Link>
+              </Button>{" "}
+              <div className="sign-up-navigate">
+                Don't have an account?{" "}
+                <Link className="login-register-link" to="/register">
+                  Sign up
+                </Link>{" "}
+              </div>{" "}
             </Form.Item>
           </Form>
         </Col>
